@@ -894,6 +894,10 @@ video {
   font-size: 40px;
 }
 
+.text-\[0px\] {
+  font-size: 0px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1041,6 +1045,14 @@ video {
 
   .md\:text-\[26px\] {
     font-size: 26px;
+  }
+
+  .md\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .md\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .md\:text-\[px\] {
