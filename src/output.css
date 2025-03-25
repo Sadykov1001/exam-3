@@ -846,6 +846,11 @@ video {
   padding-bottom: 24px;
 }
 
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
 .pr-\[30px\] {
   padding-right: 30px;
 }
@@ -918,6 +923,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
