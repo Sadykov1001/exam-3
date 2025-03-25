@@ -608,6 +608,10 @@ video {
   margin: auto;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .block {
   display: block;
 }
@@ -644,6 +648,10 @@ video {
   width: 130%;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -678,8 +686,20 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-\[20px\] {
@@ -692,6 +712,10 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .rounded-e-md {
@@ -747,6 +771,42 @@ video {
   background-color: rgb(61 104 225 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#99b5eb\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 181 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#99c2ap\] {
+  background-color: #99c2ap;
+}
+
+.bg-\[\#99c2a5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 194 165 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#f9e7\] {
+  background-color: #f9e7;
+}
+
+.bg-\[\#f9e78a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 231 138 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F5F7F8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 247 248 / var(--tw-bg-opacity, 1));
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -775,6 +835,26 @@ video {
 .px-\[\] {
   padding-left: ;
   padding-right: ;
+}
+
+.px-\[5px\] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pl-\[\] {
@@ -813,6 +893,10 @@ video {
   padding-top: 100px;
 }
 
+.pl-\[200px\] {
+  padding-left: 200px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -831,6 +915,14 @@ video {
 
 .text-\[36px\] {
   font-size: 36px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
 }
 
 .font-semibold {
@@ -865,6 +957,10 @@ video {
 
 .text-\[10\] {
   color: 10;
+}
+
+.text-\[2\] {
+  color: 2;
 }
 
 .underline {
@@ -917,6 +1013,10 @@ video {
     width: 130%;
   }
 
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -951,6 +1051,10 @@ video {
 
   .md\:text-\[16px\] {
     font-size: 16px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
   }
 
   .md\:text-\[\] {
